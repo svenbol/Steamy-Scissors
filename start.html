@@ -1,17 +1,49 @@
 <!doctype html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
 <title>Steamy scissors</title>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 
 
 <meta charset="utf-8">
 </head>
-<body ng-app="myapp">
+<body ng-app="myapp" >
+	<style type="text/css" id="custom-background-css">
+	body.custom-background {background-color: #d4d4d4;}
+	</style>
+	<div class="container">
+		<div class="navbar-header">
+			<h1>Top artists</h1>
+			<button>Taylor Swift</button>
+			<button>Kanye West</button>
+			<button>Wart scheppers</button>
+			<br></br>
+		</div>
+		<br></br>
+		<br></br>
+		<br></br>
+		<div class="col-md-3 col-xs-12">
+			<h1>Navigatie</h1>
+			<button>Home</button>
+			<button>About</button>
+			<button>Contact</button>
+		</div>
+		<div class="col-md-6 col-xs-12">
+			<h1>Search</h1>
+			<input ng-model="search" type="text"></input>
+
+		</div>
+		<div class="col-md-3 col-xs-12">
+			<h1>ads</h1>
+		</div>
+	</div>
 	
 
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="controller.js"></script>
 </body>
 </html>
+<!-- Ward is een loser, 1 ste commit sinds dit is toegevoegd-->
